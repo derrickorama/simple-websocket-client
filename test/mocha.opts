@@ -1,0 +1,4 @@
+--recursive
+--growl
+--reporter spec
+--require chai
