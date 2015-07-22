@@ -1,7 +1,7 @@
 {
   "name": "simple-websocket-client",
   "version": "1.0.0",
-  "description": "A simple websocket client based on \"ws\" that uses promises and JSON emissions.",
+  "description": "A simple websocket client that uses \"ws\" for websocket communications, promises, and socket.io-like JSON emissions.",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
@@ -9,8 +9,14 @@
   "author": "Derrick Gall",
   "license": "MIT",
   "dependencies": {
-    "chai": "^3.2.0",
-    "mocha": "^2.2.5",
     "ws": "^0.7.2"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derrickorama/simple-websocket-client.git"
   }
 }
