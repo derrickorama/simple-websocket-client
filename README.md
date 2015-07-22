@@ -1,6 +1,6 @@
 # simple-websocket-client
 
-A simple websocket client based on "[ws](https://github.com/websockets/ws)" that uses promises and JSON emissions.
+A simple websocket client that uses [ws](https://github.com/websockets/ws) for websocket communications, promises, and [socket.io-like](http://socket.io) JSON emissions.
 
 *Requires Node v0.12.x+*
 
